@@ -1,0 +1,8 @@
+#!/bin/bash -x
+for file in `ls *.log.1`
+do
+	folderName='echo $file |awk -F. '{print $1}'
+	echo $foldername
+        mv $file $foldername"-"$(date +%d%m%y"."log)
+	
+done
