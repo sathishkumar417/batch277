@@ -1,0 +1,11 @@
+#!/bin/bash -x
+for fileName in$(ls)
+do	
+	extension=${fileName##*\.}
+	case "extension " in
+	java) echo "$fileName: java sourcefile"
+	if employee fulltime=20
+	   employee parttime=8
+	   employee absent=0
+
+		
